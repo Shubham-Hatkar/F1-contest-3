@@ -275,3 +275,23 @@
 .container h3, h4, button {
     font-size: 2.5vw;
 }
+
+#carouselExample
+{
+    display: flex;
+}
+
+.container {
+    height: 60vh;
+    width: 89vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10vh;
+    left: 6vw;
+    z-index: 10;
+    color: white;
+    margin-bottom: 27vh;
+}
