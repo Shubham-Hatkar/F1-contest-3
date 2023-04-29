@@ -1,0 +1,277 @@
+/* .centered
+ {
+    position: absolute;
+    bottom: 15%;
+    left: 42%;
+    z-index: 20;
+    color: white;
+  }
+
+.desc
+{
+    position: absolute;
+    bottom: 11%;
+    left: 41%;
+    z-index: 20;
+    color: white;
+}
+
+.calltoactbtn
+{
+    position: absolute;
+    bottom: 5%;
+    left: 44%;
+    z-index: 20;
+}
+
+.calltoactbtn button
+{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+} */
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    z-index: 10;
+    color: white;
+}
+
+.container .btn button
+{
+    background-color: blue;
+    color: white;
+    border-radius: 1vw;
+    border: none;
+    padding: 0.5rem;
+}
+
+.container h3, h4, button
+{
+    font-size: 1.5vw;
+}
+
+.container .btn button
+{
+    font-size: 1vw;
+}
+
+/* .box
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+} */
+
+.grid
+{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.grid .g-col-6
+{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2vw;
+   
+}
+
+.grid .g-col-6 p
+{
+    font-size: 3vw;
+    color: rgb(81, 78, 78);
+}
+
+
+.grid2
+{
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    margin-right: 1vw;
+}
+
+.grid2 .g-col-61
+{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 2vw;
+    margin-left: -3vw;  
+}
+
+.grid2 .inside
+{
+    
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 2vw;
+    margin-left: 0vw;
+}
+
+.grid .bigbox
+{
+    margin-left: 1000vw;
+}
+
+#secondbox
+{
+    height: 400px;
+    width: 710px;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    font-size: 3vw;
+    color: rgb(81, 78, 78);
+}
+
+#firstbox
+{
+    height: 400px;
+    margin-left: 4vw;
+    margin-right: 0vw;
+    font-size: 3vw;
+    color: rgb(81, 78, 78);
+}
+
+.cardbox
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vw;
+    flex-wrap: wrap;
+}
+
+.cardbox .cards
+{
+    margin-bottom: 5vh;
+}
+
+
+.last > .card, .last
+{
+    background-color: rgb(213, 208, 208);
+    border: none;
+}
+
+.last 
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vw;
+    flex-wrap: wrap;
+    justify-items: start;
+}
+
+.last ul li
+{
+    list-style: none;
+    
+}
+
+.last ul
+{
+    padding-left: 0rem; 
+}
+
+.secondlink ul
+{
+    padding-left: 0rem;
+}
+
+.text-end
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+}
+
+.text-end h5,.phone 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    align-items: start;
+}
+
+.text-end div
+{
+    margin-bottom: 6vh;
+}
+
+.last
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(213, 208, 208);
+}
+
+.copyright .copyline
+{
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+}
+
+.copyright .lastbtn
+{
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+.copyright button
+{
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-left: 5vw;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.container .btn button {
+    font-size: 2vw;
+}
+
+.container h3, h4, button {
+    font-size: 2.5vw;
+}
